@@ -12,20 +12,30 @@
     <div class="board">
         <h1>Welcome to Lemmy's Soundboard</h1>
         <h2>Choose a sound from below</h2>
-        <button id="sound-button" onclick="playAudio('res/applause.wav')">
-            👏
-            <p class="description">Applause</p>
-        </button>
-          
-        <button id="sound-button" onclick="playAudio('res/baby.wav')">
-            👶
-            <p class="description">Baby</p>
-        </button>
-    
-        <button id="sound-button" onclick="playAudio('res/car_horn.wav')">
-            📣
-            <p class="description">Car Horn</p>
-        </button>
+
+        <ul>
+            <li>
+                <button class="sound-button" onclick="playAudio('res/applause.wav')">
+                    👏
+                </button>
+                <p class="description">Applause</p>
+            </li>
+
+            <li>
+                <button class="sound-button" onclick="playAudio('res/baby.wav')">
+                    👶
+                </button>
+                <p class="description">Baby</p>
+            </li>
+
+            <li>
+                <button class="sound-button" onclick="playAudio('res/car_horn.wav')">
+                    📣
+                </button>
+                <p class="description">Car Horn</p>
+            </li>
+        </ul>
+
     </div>
 
     <script src="soundboard.js"></script>

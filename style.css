@@ -23,7 +23,19 @@ h2 {
     word-wrap: normal;
 }
 
-#sound-button{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.sound-button{
     background-color: transparent;
     border: none;
     font-size: 100px;
